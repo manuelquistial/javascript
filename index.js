@@ -1,4 +1,7 @@
 function suma(a,b){
-    console.log(a + b)
+    suma = a + b
+    return suma
 }
-suma(2,4)
+resultado = suma(2,4)
+
+console.log(resultado)
